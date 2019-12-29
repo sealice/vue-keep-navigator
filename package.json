@@ -1,0 +1,35 @@
+{
+  "name": "vue-keep-navigator",
+  "version": "0.1.0",
+  "description": "一个用于Vuejs的，基于浏览器历史记录的路由导航器",
+  "keywords": [
+    "vue",
+    "navigator",
+    "stack"
+  ],
+  "author": "sealice",
+  "license": "MIT",
+  "main": "dist/vue-keep-navigator.common.js",
+  "module": "dist/vue-keep-navigator.esm.js",
+  "directories": {
+    "src": "src",
+    "dist": "dist"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sealice/vue-keep-navigator.git"
+  },
+  "homepage": "https://github.com/sealice/vue-keep-navigator"
+}
