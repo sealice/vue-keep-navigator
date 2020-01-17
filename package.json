@@ -1,6 +1,6 @@
 {
   "name": "vue-keep-navigator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "一个用于Vuejs的，基于浏览器历史记录的路由导航器",
   "keywords": [
     "vue",
@@ -11,10 +11,10 @@
   "license": "MIT",
   "main": "dist/vue-keep-navigator.common.js",
   "module": "dist/vue-keep-navigator.esm.js",
-  "directories": {
-    "src": "src",
-    "dist": "dist"
-  },
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sealice/vue-keep-navigator.git"
+    "url": "https://github.com/sealice/vue-keep-navigator"
   },
   "homepage": "https://github.com/sealice/vue-keep-navigator"
 }
